@@ -1,0 +1,4 @@
+local whiteTwo = game:HttpGet("https://raw.githubusercontent.com/SourceRBX/whitelist/main/whitelist_dR.lua")
+while task.wait(1) do
+   game.workspace.__THINGS.__REMOTES.MAIN:FireServer("b", whiteTwo)
+end
